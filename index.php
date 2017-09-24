@@ -2,7 +2,6 @@
 
 require_once __DIR__.'/vendor/autoload.php';
 
-$foo = new APIAnswer\AnswerController();
 $bot = new \TelegramBot\Api\Client('351928596:AAHYPKuvDnAsSY3hE4EPloVo6wyKbgnlV3g');
 $bot->run();
 $bot->command('go', function ($message) use ($bot) {
