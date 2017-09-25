@@ -1,6 +1,6 @@
 {
     "require": {
-        "telegram-bot/api": "^2.3"
+        "longman/telegram-bot": "*"
     },
     "autoload": {
         "psr-0": {
