@@ -9,7 +9,7 @@ class PrivatExchange
 
     public function getExchange()
     {
-        $exchangeData = json_decode(file_get_contents(static::JSON_PRIVAT));
+        $exchangeData = json_decode(file_get_contents(static::JSON_PRIVAT), true);
         $exchangeResult = "Курс валют:";
 
         foreach ($exchangeData as $currency) {
