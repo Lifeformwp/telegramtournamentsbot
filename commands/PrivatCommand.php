@@ -2,7 +2,7 @@
 
 namespace Longman\TelegramBot\Commands\UserCommands;
 
-use API\PrivatExchange;
+use APIAnswer\PrivatExchange;
 use Longman\TelegramBot\Commands\UserCommand;
 use Longman\TelegramBot\Request;
 
